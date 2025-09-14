@@ -32,6 +32,7 @@ source venv/bin/activate
 
 2.2. Instalar dependências
 ```bash
+cd PCS-3643
 pip install -r requirements.txt
 ```
 
