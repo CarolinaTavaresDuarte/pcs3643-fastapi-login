@@ -8,7 +8,7 @@ from .models import User
 from .database import get_db
 
 import os
-SECRET_KEY = os.getenv("SECRET_KEY", "QUEROMEMATAR")
+SECRET_KEY = os.getenv("SECRET_KEY", "135791")
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 60
 pwd = CryptContext(schemes=["bcrypt"], deprecated="auto")

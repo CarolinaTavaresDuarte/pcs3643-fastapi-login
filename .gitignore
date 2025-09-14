@@ -9,8 +9,7 @@ __pycache__/
 **/dist/
 **/dist-ssr/
 
+venv/
 .vscode/
 .idea/
 .DS_Store
-
-.env 
