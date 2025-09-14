@@ -13,19 +13,10 @@ Projeto inicial da disciplina **PCS3643 – Engenharia de Software (USP)** com *
 
 ---
 
-## Observação importante
-
-O arquivo **`.env`** não está neste repositório.  
-Ele foi disponibilizado em **PDF no e-Disciplinas** e deve ser criado manualmente na raiz do projeto seguindo esse conteúdo.
-
 ## Como rodar o projeto localmente
 ### 1) Criar os arquivos .env
 
-1.1  Criar um  arquivo chamado .env dentro da pasta "PCS-3643"
-A senha do banco de dados se encontra no PDF enviado no edisciplinas
-
-1.2 Criar um arquivo chamado .env dentro da pasta "frontend"
-As senhas se encontram no PDF enviado no edisciplinas
+Colocamos no github os arquivos .env para facilitar a correção, mesmo que não seja o recomendado. Então podemos pular o passo 1.
 
 ### 2) Backend (FastAPI)
 2.1.Criar e ativar o ambiente virtual
