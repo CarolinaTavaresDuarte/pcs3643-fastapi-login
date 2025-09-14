@@ -53,6 +53,7 @@ cd frontend
 3.2. Instalar dependências
 ```bash
 npm install
+npm install lovable-tagger
 ```
 
 3.3. Rodar o servidor de desenvolvimento
