@@ -19,6 +19,8 @@ O arquivo **`.env`** não está neste repositório.
 Ele foi disponibilizado em **PDF no e-Disciplinas** e deve ser criado manualmente na raiz do projeto seguindo esse conteúdo.
 
 ## Como rodar o projeto localmente
+### 1) Criar o arquivo .env dentro da pasta PCS-3643
+A senha do banco de dados se encontra no PDF enviado no edisciplinas
 
 ### 2) Backend (FastAPI)
 2.1.Criar e ativar o ambiente virtual
@@ -45,7 +47,7 @@ uvicorn app.main:app --reload
 
 ### 3) Frontend (Vite/React)
 
-3.1. Entrar na pasta do frontend
+3.1. Abrir um novo terminal e entrar na pasta do frontend
 ```bash
 cd frontend
 ```
@@ -60,6 +62,8 @@ npm install lovable-tagger
 ```bash
 npm run dev
 ```
+Assim, você deixará dois terminais rodando ao mesmo tempo: um com o backend e outro com o frontend.
+
 - Frontend: http://localhost:8080
 
 
